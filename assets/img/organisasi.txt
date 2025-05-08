@@ -1,0 +1,112 @@
+<!-- New Associations Section -->
+         <section class="associations">
+            <div class="container px-5">
+                <h2>Perusahaan Terasosiasi</h2>
+                <p>Seiring dengan berjalannya waktu, PT Multi Colour Indah Indonesia berhasil membuat 4 (empat) unit usaha yang mampu berdiri sendiri dan saling mendukung yaitu :</p>
+                
+                <div class="logo-container">
+                    <div class="logo-item">
+                        <div class="logo-circle">
+                            <img src="assets/img/logo1.png" alt="PT. Bangun Sarana Baja">
+                        </div>
+                        <h3>PT. Bangun Sarana Baja</h3>
+                        <p>( Steel Fabrication )</p>
+                        <p>November 1986</p>
+                    </div>
+                    
+                    <div class="logo-item">
+                        <div class="logo-circle">
+                            <img src="assets/img/logo2.png" alt="PT. Ciptausaha Pratama">
+                        </div>
+                        <h3>PT. Ciptausaha Pratama</h3>
+                        <p>( Civil Engineering )</p>
+                        <p>Desember 1994</p>
+                    </div>
+                    
+                    <div class="logo-item">
+                        <div class="logo-circle">
+                            <img src="assets/img/logo3.png" alt="PT. Bondi Syad Muli">
+                        </div>
+                        <h3>PT. Bondi Syad Muli</h3>
+                        <p>( Hot Dip Galvanizing )</p>
+                        <p>November 2006</p>
+                    </div>
+                    
+                    <div class="logo-item">
+                        <div class="logo-circle">
+                            <img src="assets/img/logo4.png" alt="PT. Dananjaya Wira Usaha">
+                        </div>
+                        <h3>PT. Dananjaya Wira Usaha</h3>
+                        <p>( Trading )</p>
+                        <p>2019</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+.associations {
+  background: linear-gradient(to right, #ff7e00, #9333ea);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.associations h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.associations p {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.logo-item {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.logo-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  overflow: hidden;
+}
+
+.logo-circle img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.logo-item h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.logo-item p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.logo-item p:first-of-type {
+  color: #333;
+  font-weight: bold;
+}
+
+.logo-item p:last-of-type {
+  color: #666;
+}
